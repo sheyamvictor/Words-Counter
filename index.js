@@ -8,7 +8,7 @@ button.addEventListener('click',function(){
 let eValue= text
 
 if(eValue= text.value.length-1){
-result .textContent= eValue+ "words";
+result .textContent= eValue+ "Letters";
 }
 
 else{

@@ -4,16 +4,11 @@ let result=document.getElementById("result")
 let button = document.getElementById("button")
 
 button.addEventListener('click',function(){
-
-let eValue= text
-
-if(eValue= text.value.length-1){
-result .textContent= eValue+ "Letters";
-}
-
-else{
-    alert("Enter the TEXT")
-}
+  
+let words = text.value
+let spaceCut = words.trim( )
+let wordsCal = spaceCut.split(" ").length
+result.innerHTML= wordsCal + "Words"
 
 
 })

@@ -3,17 +3,18 @@
     margin: 0;
 }
 body{
-    background-color: indigo;
+    background-color: rgb(27, 27, 27);
 }
 
 h1{
-    text-decoration: underline;
-    color: rgb(193, 124, 21);
+    
+    color: rgb(110, 196, 120);
 }
 
 .main{
     padding: 10px;
 display: flex;
+flex-wrap: wrap;
 justify-content: space-around;
 flex-direction: column;
 align-items: center;
@@ -22,19 +23,22 @@ gap: 10px;
 }
 
 textarea{
-    width:250px;
-    height: 150px;
-    border: solid rgb(159, 159, 195);
-border-radius: 5px;
-box-shadow: rgba(73, 73, 162, 0.959) 0px 50px 100px -20px, rgba(170, 38, 38, 0.849) 0px 30px 60px -30px, rgba(137, 202, 209, 0.756) 0px -2px 6px 0px inset;}
-
+    width:350px;
+    height: 450px;
+border-radius: 8px;
+color: whitesmoke;
+font-weight: bold;
+font-size: 20px;
+margin: 5px;
+background-color: rgba(133, 173, 160, 0.266);
+}
 button{
     padding: 15px 20px;
 
 border: none;
 border-radius: 5px;
 font-weight: bold;
-background-color: rgb(62, 86, 78);
+background-color: rgb(15, 194, 134);
 
 }
 
@@ -47,8 +51,7 @@ button:focus{
     text-align: center;
 font-size: x-large;
 font-weight: bolder;
-color: rgb(217, 14, 14);
-text-shadow: rgb(243, 244, 243) 2px 3px;
+color: rgb(235, 231, 231);
 }
 
 
